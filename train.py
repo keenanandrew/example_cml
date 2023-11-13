@@ -12,8 +12,10 @@ X_test = np.genfromtxt("data/test_features.csv")
 y_test = np.genfromtxt("data/test_labels.csv")
 
 # Fit a model
+
 # look here, sausages
 depth = 5
+
 clf = RandomForestClassifier(max_depth=depth)
 clf.fit(X_train, y_train)
 
